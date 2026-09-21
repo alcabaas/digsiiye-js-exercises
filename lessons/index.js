@@ -28,3 +28,17 @@ console.log(x >= y);
 
 // x wekayrtahy ama wa iskumid jawaabta= true
 console.log(x <= y);
+
+// Logical Operators
+
+let isAdulty = true;
+let hasPermission = false;
+
+// && micneheedu waa in labada dhinac ee yihiin true (jawaabt= false) sabto ah haspermission wa false
+console.log(isAdulty && hasPermission);
+
+// || macnehedu waa in mid ka mid ah noqdaa true muhim ma ahan inee wada noqdaan true (jawabta= true)
+console.log(isAdulty || hasPermission);
+
+// ! micnehedu waa soo saar caksiga marki hore true be eheed hada kadhig flas
+console.log(!isAdulty);
