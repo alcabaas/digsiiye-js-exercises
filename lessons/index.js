@@ -42,3 +42,47 @@ console.log(isAdulty || hasPermission);
 
 // ! micnehedu waa soo saar caksiga marki hore true be eheed hada kadhig flas
 console.log(!isAdulty);
+
+let firstName = "ghost";
+let lastName = "rbg";
+
+// soo saar firstname waxa kujira
+console.log(firstName);
+
+// soo saar waxa kujira lasname
+console.log(lastName);
+
+// soo saar waxa kujira firstname iyo lastname ( markan + ku waa isku xer lkn markii number ay noqoto waa iskudar sidas darted imika waa isku xer " " halkaasne waa space udhexeesi)
+console.log(firstName + " " + lastName);
+
+// greeting ku keedi hello
+let greeting = "hello";
+
+// greeting u badal world
+// greeting = "world";
+
+// greeting o markii hore eheet hello kudar world
+greeting += "world";
+
+console.log(greeting);
+
+// Function
+
+function greet() {
+  console.log("Hi");
+}
+// jawaabta so bexeesa waa (Hi)
+greet();
+
+function greet(name) {
+  console.log("Hi " + name);
+}
+// waxaa isoobaxayya Hi rbg
+greet("rbg");
+
+// markan waxan abuurenaa function caculateTotal ah
+function calculateTota(price, quantity) {
+  console.log("Totalprice: $" + price * quantity);
+}
+// jawaabta nosobexeso wexee noqonesa (Totalprice: $20)
+calculateTota(10, 2);
