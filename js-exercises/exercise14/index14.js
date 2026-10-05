@@ -1,11 +1,3 @@
-// const students = [
-//   { name: "ali", age: 20, city: "mugadisho" },
-//   { name: "amir", age: 23, city: "jigjiga" },
-//   { name: "yequb", age: 20, city: "hargeysa" },
-// ];
-// for (const [index, student] of students.entries()) {
-//   console.log(index, students);
-// }
 const students = [
   { name: "ali", age: 20, city: "mugadisho" },
   { name: "amir", age: 23, city: "jigjiga" },
