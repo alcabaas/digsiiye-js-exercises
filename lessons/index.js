@@ -86,3 +86,14 @@ function calculateTota(price, quantity) {
 }
 // jawaabta nosobexeso wexee noqonesa (Totalprice: $20)
 calculateTota(10, 2);
+
+const button = document.querySelector("#button1");
+button.addEventListener("click", function () {
+  alert("you'v clickt the button!");
+});
+
+document.querySelector("#button2").addEventListener("click", function () {
+  console.log("Button clicked!");
+});
+
+ 
